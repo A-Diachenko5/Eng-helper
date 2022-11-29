@@ -1,0 +1,59 @@
+*, ::after,::before {
+    font-family: inherit;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1920px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 61px;
+    margin-bottom: 150px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+button {
+    width: 568px;
+    height: 96px;
+    background-color: #fff;
+    border: 0px;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 61px;
+    border-radius: 48px;
+    padding: 20px 60px;
+}
+
+.orange {
+    background-color: #FFC300;
+}
+
+.yellow {
+    background-color: #FFD60A;
+}
+
+.faded {
+    background-color: #FFE65C;
+}

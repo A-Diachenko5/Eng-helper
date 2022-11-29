@@ -1,5 +1,9 @@
+body {
+    
+}
+ 
 .section1{
-    width: 100vw;
+    width: 99vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,6 +19,9 @@ h1 {
     min-height: 40vh;
 }
 .imgOut {
+    padding: 0;
+    border-radius: 55px;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,4 +81,14 @@ h1 {
 
 .form3 input {
     margin-bottom: 10px;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hidden {
+    display: none;
 }

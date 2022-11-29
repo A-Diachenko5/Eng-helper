@@ -1,0 +1,63 @@
+
+
+ .imgOut img{
+    max-width: 805px;
+    height: 503px;
+    border-radius: 55px;
+ }
+
+.container {
+    width: 97vw;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 102px;
+    line-height: 120px;
+}
+
+.game {
+    padding: 40px;
+    box-shadow: 0px 0px 45px 11px rgba(0, 0, 0, 0.35);
+    border-radius: 55px;
+}
+
+.input {
+    margin: 0;
+    width: 367px;
+    height: 96px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 44px rgba(0, 0, 0, 0.4);
+    border-radius: 48px;
+    border: none;
+}
+
+.btn-go {
+    padding: 29px 47px;
+    background: #FFE65C;
+    border-radius: 48px;
+    border: none;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    font-family: 'Roboto';
+}
+
+.form1 {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+
+.piece {
+    margin-left: 70px;
+}
+
+.hidden {
+    display: none;
+ }

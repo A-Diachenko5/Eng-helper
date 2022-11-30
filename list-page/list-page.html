@@ -5,8 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/list-page/list-page.css">
 </head>
 <body>
-    
+    <div class="container emerge">
+        <h1 class="title">Список слов</h1>
+        <section class="main-section">
+            <section class="section1">
+                <h1>Добавить картинку</h1>
+                <div class="form1">
+                    <div class="input1">
+                        <p>Вставь URL</p>
+                        <input type="text" class="input-URL"> 
+                    </div>
+                    <div class="input2">
+                        <p>Напиши слово</p>
+                        <input type="text" class="input-word"> 
+                    </div>    
+                    <button class="btnAdd">Добавить</button>
+                </div>
+            </section>
+            <section class="section2">
+                <h1>Удалить картинку</h1>
+                <div class="form2">
+                    <div class="input3">
+                        <p>Вставь URL </p>
+                        <input type="text" class="input-word-delete"> 
+                    </div>
+                    <button class="btnDelete">Удалить</button>
+                </div>
+            </section>
+        </section>  
+        <div class="button-menu"><button class="btn-menu">МЕНЮ</button> </div>
+        <div class="container-word-list">
+            <div class="total">Всего</div>
+            <div class="word-list"></div>
+        </div>
+        
+    </div> 
+    <script src="/list-page/list-page.js"></script>
+    <script src="/emerge.js"></script>
 </body>
 </html>

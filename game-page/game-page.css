@@ -1,4 +1,16 @@
 
+*, ::before, ::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
  .imgOut img{
     max-width: 805px;
@@ -28,6 +40,11 @@
 }
 
 .input {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    font-family: 'Roboto';
+    padding: 10px 25px;
     margin: 0;
     width: 367px;
     height: 96px;
@@ -39,13 +56,17 @@
 
 .btn-go {
     padding: 29px 47px;
-    background: #FFE65C;
+    background-color: #FFC300;
     border-radius: 48px;
     border: none;
     font-weight: 600;
     font-size: 32px;
     line-height: 38px;
     font-family: 'Roboto';
+}
+
+.btn-go:hover {
+    background-color: #ebb401;
 }
 
 .form1 {
@@ -56,6 +77,42 @@
 
 .piece {
     margin-left: 70px;
+}
+
+
+
+ .result {
+    padding: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
+ }
+
+ .status {
+    font-family: 'Roboto';
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 62px;
+    line-height: 118%;
+ }
+
+ .btn-menu {
+    width: 468px;
+    padding: 25px 47px;
+    background-color: #FFC300;
+    border-radius: 48px;
+    border: none;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 38px;
+    font-family: 'Roboto';
+ }
+
+ .btn-menu:hover {
+    background-color: #ebb401;
 }
 
 .hidden {

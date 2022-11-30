@@ -35,6 +35,7 @@ ul {
 }
 
 button {
+    opacity: 1;
     width: 568px;
     height: 96px;
     background-color: #fff;
@@ -46,14 +47,27 @@ button {
     padding: 20px 60px;
 }
 
+
 .orange {
     background-color: #FFC300;
+}
+
+.orange:hover {
+    background-color: #ebb401;
 }
 
 .yellow {
     background-color: #FFD60A;
 }
 
+.yellow:hover {
+    background-color: #eec600;
+}
+
 .faded {
     background-color: #FFE65C;
+}
+
+.faded:hover {
+    background-color: #f1d42b;
 }

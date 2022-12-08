@@ -13,7 +13,6 @@ body {
     width: 1362px;
     display: flex;
     justify-content: center;
-    
     flex-direction: column;
 }
 
@@ -258,4 +257,93 @@ body {
 
 .btn-menu:hover{
     background-color: #ebb401
+}
+
+@media (max-width:1040px) {
+    .title {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .main-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .word-list {
+        gap: 30px;
+    }
+}
+
+@media (max-width:730px) {
+    .container {
+        max-width: 500px;
+        align-items: center;
+    }
+    .imgOut {
+        width: 237px
+    }
+    .imgOut img {
+        width: 237px;
+        height: 161px;
+    }
+    .container-word-list {
+        max-width: 500px;
+    }
+    .card {
+        max-width: 400px;
+    }
+    .content {
+        gap: 10px;
+    }
+    .content h1{
+        line-height: 121%;
+        font-size: 36px;
+    }
+    .content button {
+        font-size: 16px;
+        width: 106px;
+        height: 50px;
+    }
+}
+
+@media (max-width:520px) {
+    .section1, .section2 {
+        text-align: center;
+    }
+    .container {
+        max-width: 350px;
+        align-items: center;
+    }
+    .total {
+        padding: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .word-list {
+        padding: 10px;
+    }
+    .imgOut {
+        width: 190px
+    }
+    .imgOut img {
+        width: 190px;
+        height: 141px;
+    }
+    .container-word-list {
+        max-width: 350px;
+    }
+    .card {
+        max-width: 320px;
+    }
+    .content {
+        gap: 10px;
+    }
+    .content h1{
+        line-height: 121%;
+        font-size: 36px;
+    }
+    .content button {
+        font-size: 16px;
+        width: 90px;
+        height: 40px;
+    }
 }

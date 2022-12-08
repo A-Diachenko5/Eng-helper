@@ -10,18 +10,19 @@ body {
 }
 
 .container {
-    max-width: 1920px;
+    max-width: 97vw;
     height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 h1 {
     font-weight: 600;
     font-size: 72px;
-    line-height: 61px;
+    line-height: 121%;
     margin-bottom: 150px;
 }
 
@@ -34,6 +35,12 @@ ul {
     gap: 40px;
 }
 
+.li-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 button {
     opacity: 1;
     width: 568px;
@@ -42,7 +49,7 @@ button {
     border: 0px;
     font-weight: 600;
     font-size: 52px;
-    line-height: 61px;
+    line-height: 121%;
     border-radius: 48px;
     padding: 20px 60px;
 }
@@ -70,4 +77,23 @@ button {
 
 .faded:hover {
     background-color: #f1d42b;
+}
+
+@media (max-width: 780px) {
+    .list {
+        padding: 0;
+    }
+}
+
+@media (max-width: 580px) {
+    h1 {
+        font-size: 52px;
+    }
+    button {
+        text-align: center;
+        font-size: 32px;
+        width: 300px;
+        height: 69px;
+        padding: 20px 30px;
+    }
 }

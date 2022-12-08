@@ -12,11 +12,11 @@ const btnList = document.querySelector('.btn-list')
 const btnAuthor = document.querySelector('.btn-author')
 
 btnGame.addEventListener('click', () => {
-    window.location.href = '../game-page/index.html'
+    window.location.href = '../Eng-helper/game-page/index.html'
 })
 
 btnList.addEventListener('click', () => {
-    window.location.href = '../list-page/index.html'
+    window.location.href = '../Eng-helper/list-page/index.html'
 })
 
 btnAuthor.addEventListener('click', () => {

@@ -12,7 +12,7 @@ renderCard()
 
 btnAdd.addEventListener('click', addImage)
 btnDelete.addEventListener('click', deleteImage)
-btnMenu.addEventListener('click', () => { window.location.href = '../start-page/start-page.html' })
+btnMenu.addEventListener('click', () => { window.location.href = '../index.html' })
 wordList.addEventListener('click', (event) => {
     if (event.target.tagName !== 'BUTTON'){
         console.log(event.target)

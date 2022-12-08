@@ -14,7 +14,7 @@ row = 0;
 game()
 btnGo.addEventListener('click', comparison)
 btnMenu.addEventListener('click', () => {
-    window.location.href = '../start-page/start-page.html'
+    window.location.href = '../index.html'
 })
 
 
